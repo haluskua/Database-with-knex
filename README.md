@@ -13,6 +13,16 @@ npx knex init
 
 //npx knex seed:run
 
+//< 
+    npx knex migrate:rollback
+
+    //  when rolling back,, re-run 
+    // npx knex seed:migrate:lates & 
+    // npx knex seed:run
+    
+>... to reset original data stat
+
+
 // open db Browser for Sqlite3 to view table contents and (id)
 
 // * when inside index.js 
